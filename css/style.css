@@ -1,0 +1,175 @@
+p{
+    font: 24px;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  .Header {
+column-count: 2;
+  }
+  ul.navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0.0025rem;
+        background-color: #fffffb;
+        overflow: hidden;
+        display: block;
+      }
+      h1{
+        color:#A54C00;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 150;
+      }
+  h2{
+    color:#32312f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+  }
+  h3{
+    color: #A54C00;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #heroGrid1 {
+  
+  }
+  img.logo{
+width: 20%;
+  }
+  .HeroGrid {
+    display: grid;
+    background-color: #ffffff;
+    height: 400px;
+    grid-template-columns: 1fr 2fr;
+    position: center;
+  }
+  .profilecontent{
+    padding: 50px;
+    text-align: justify;
+    line-height: 30px;
+    color: #32312f;
+  }
+  img.profilepics{
+      width: 75%;
+  }
+  #Hello {
+    font-size: 32px;
+    padding: 2rem;
+    font-weight: regular;
+    color: #32312f;
+    text-align: start;
+  }
+  #Stanley {
+    font-size: 76px;
+    font-weight: regular;
+  }
+  .skills{
+    padding-top: 5rem;
+  }
+  .top{
+    grid-area: topRow;
+  }
+      ul.navbar li {
+        float: right;
+        margin: 20px;
+      }
+  .logo {
+    width: fit-content;
+  }
+      ul.navbar li a {
+        display: block;
+        color: #A54C00;
+        text-align: center;
+        padding: 5px 30px;
+        text-decoration: none;
+      }
+  ul.navbar li a:hover {
+        background-color: #ddd;
+  }
+  ul.skillsTools {
+    color: #32312f;
+    line-height: 2rem;
+    column-count: 2;
+    font-weight:regular;
+    padding: 1rem;
+    list-style-type:circle;
+    max-width: 600px;
+  }
+  .button {
+    border: none;
+    background-color:#E1883C;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color:#A54C00;
+  }
+  .resumeImg{
+    position: center;
+  }
+  ul.Footer {
+    column-count: 3;
+    color:#A54C00;
+    line-height: 2rem;
+    padding: 5rem;
+    background: #f5f4f0;
+    display: block;
+    margin: 0 auto;
+  }
+  .list-item-no-bullet {
+    list-style-type: none;
+    text-decoration:none;
+  }
+  a {
+    color:#32312f;            /* sets the text color */
+    text-decoration: none;   /* removes the underline */
+  }
+  a:hover { 
+    background-color:#A54C00;
+    color: white;
+  }
+  .workGrid {
+    max-width: 95%;
+    margin: 0 auto; /* centers the container horizontally */
+    padding-bottom: 3%;
+  }  
+  .workGridimg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .resumeImg1{
+    padding: 5%;
+    max-width: 95%;
+    margin: 0 auto; /* centers the container horizontally */
+  }
+  img.resumeImg{
+    max-width: 90%;
+    height:fit-content;
+    display: block;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 600px) {
+    .HeroGrid {
+        display: block; /* Change display to block */
+        background-color: #ffffff;
+        height: auto; /* Change height to auto */
+    }
+    .HeroGrid > * {
+        display: block; /* Change display of child elements to block */
+        margin-bottom: 20px; /* Add some spacing between child elements */
+    }
+    ul.navbar {
+      display: block; /* Change display to block */
+      background-color: #ffffff;
+      height: auto; /* Change height to auto */
+  }
+  ul.navbar li {
+      display: block; /* Change display of li elements to block */
+      margin-bottom: 10px; /* Add some spacing between columns */
+  }
+  }
