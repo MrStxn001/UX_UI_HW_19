@@ -107,9 +107,6 @@ width: 20%;
   button:hover {
     background-color:#A54C00;
   }
-  .resumeImg{
-    position: center;
-  }
   ul.Footer {
     column-count: 3;
     color:#A54C00;
@@ -172,4 +169,12 @@ width: 20%;
       display: block; /* Change display of li elements to block */
       margin-bottom: 10px; /* Add some spacing between columns */
   }
+  .resumeImg{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
+  
