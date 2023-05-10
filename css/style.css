@@ -1,8 +1,7 @@
 p{
     font: 24px;
-     font-family: Arial, Helvetica, sans-serif;
+     font-family:'monospace', Courier, monospace;
   }
- 
   .Header {
 column-count: 2;
   }
@@ -21,12 +20,13 @@ column-count: 2;
       }
   h2{
     color:#32312f;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     font-weight: 200;
   }
   h3{
     color: #A54C00;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
+    font-size: 24px;
   }
   #heroGrid1 {
   
@@ -40,29 +40,34 @@ width: 20%;
     height: 400px;
     grid-template-columns: 1fr 2fr;
     position: center;
+    padding-bottom: 5rem;
   }
   .profilecontent{
     padding: 50px;
     text-align: justify;
     line-height: 30px;
-    color: #32312f;
+    color: #0b2457;
   }
   img.profilepics{
       width: 75%;
+      padding-left: 1rem;
   }
   #Hello {
     font-size: 32px;
     padding: 2rem;
     font-weight: regular;
-    color: #32312f;
     text-align: start;
   }
   #Stanley {
     font-size: 76px;
     font-weight: regular;
   }
+  .aboutme{
+    padding-left: 1rem;
+  }
   .skills{
-    padding-top: 5rem;
+    padding: 5rem;
+    padding-left: 1rem;
   }
   .top{
     grid-area: topRow;
@@ -84,7 +89,7 @@ width: 20%;
   ul.navbar li a:hover {
         background-color: #ddd;
   }
-  ul.skillsTools {
+  /* ul.skillsTools {
     color: #32312f;
     line-height: 2rem;
     column-count: 2;
@@ -92,7 +97,7 @@ width: 20%;
     padding: 1rem;
     list-style-type:circle;
     max-width: 600px;
-  }
+  } */
   .button {
     border: none;
     background-color:#E1883C;
@@ -115,7 +120,7 @@ width: 20%;
     padding: 5rem;
     background: #f5f4f0;
     display: block;
-    margin: 0 auto;
+    margin-top: 5rem;
   }
   .list-item-no-bullet {
     list-style-type: none;
@@ -178,6 +183,8 @@ width: 20%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+  justify-content: center;
   }
 
   .card {
